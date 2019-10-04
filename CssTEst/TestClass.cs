@@ -24,6 +24,7 @@ namespace CssTEst
 
             _testCaseHandler.Invoke(() =>
             {
+                driver.FindElement(By.CssSelector("[href='let-s-talk-tea.html']")).Click();
                 driver.FindElement(By.XPath("test"));
 
             });
